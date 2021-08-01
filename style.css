@@ -29,7 +29,7 @@
     position: absolute;
     display: flex;
     top: 32px;
-    left: 245px;
+    left: 725px;
 }
 .search-mic{
     width: 20px;
@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     top: 30px;
-    right: 245px;
+    right: 725px;
     z-index: 2;
 }
 *{
