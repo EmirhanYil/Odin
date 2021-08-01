@@ -1,0 +1,83 @@
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.search-text{
+    width: 500px;
+    border-radius: 40px;
+    padding: 12px 10px 12px 40px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    font-size: 16px;
+}
+
+.search-text:focus{
+    outline: none;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search-icon{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    top: 32px;
+    left: 245px;
+}
+.search-mic{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 30px;
+    right: 245px;
+    z-index: 2;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+li a{
+    font-family: arial, sans-serif;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+}
+.nav-parent{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    padding: 0px 10px;
+}
+
+
+
+
+.grid{
+    width: 24px;
+    height: 24px;
+}
+.profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+}
